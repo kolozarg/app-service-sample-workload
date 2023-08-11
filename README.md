@@ -1,57 +1,32 @@
-# Project Name
+# App Services sample workload
 
-(short, 1-3 sentenced, description of the project)
+It is a simple web application which is able to connect a SQL Dadatabase.
+It supports App Service references implementations.
+
+- App Service Simple Web App (coming soon)
+- [App Service Baseline implementation](https://github.com/Azure-Samples/app-service-baseline-implementation)
 
 ## Features
 
 This project framework provides the following features:
 
-* Feature 1
-* Feature 2
-* ...
+- Home Page
+  ![Home Page](homePage.png)
+- A page which show database Product Categories to show connectivity
+  ![Product Categories Pages](ProductCategoriesPages.png)
 
 ## Getting Started
 
 ### Prerequisites
 
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
+- [.Net 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
+- [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
+- [Adventureworks database example](https://learn.microsoft.com/sql/samples/adventureworks-install-configure)
 
 ### Installation
 
-(ideally very short)
+1. Install [Adventureworks database example](https://learn.microsoft.com/sql/samples/adventureworks-install-configure)
+1. Get connnetion string and add it on appsettings.json
+1. Open SimpleWebApp.sln with Visual Studio
 
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+> :warning: there is a already compiled version (SimpleWebApp.zip) which is going to be used in the reference implementations.
