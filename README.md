@@ -9,7 +9,7 @@ This GitHub repository contains a simple web application sample that connects to
 
 The sample project provides the following features:
 
-- Home Page
+- A simple Welcome page
   ![Home Page](homePage.png)
 - A page which show database Product Categories to show connectivity
   ![Product Categories Pages](ProductCategoriesPages.png)
