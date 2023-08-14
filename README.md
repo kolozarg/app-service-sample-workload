@@ -25,7 +25,7 @@ The sample project provides the following features:
 ### To edit in Visual Studio
 
 1. Install [Adventureworks database example](https://learn.microsoft.com/sql/samples/adventureworks-install-configure)
-1. Get connnetion string and add it on appsettings.json
+1. Get connnetion string and add it to appsettings.json
 1. Open SimpleWebApp.sln with Visual Studio
 
 > :warning: there is a already compiled version (SimpleWebApp.zip) which is going to be used in the reference implementations.
