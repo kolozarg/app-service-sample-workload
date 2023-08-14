@@ -28,4 +28,4 @@ The sample project provides the following features:
 1. Get connnetion string and add it to appsettings.json
 1. Open SimpleWebApp.sln with Visual Studio
 
-> :warning: there is a already compiled version (SimpleWebApp.zip) which is going to be used in the reference implementations.
+> :warning: the repo contains an already compiled version (SimpleWebApp.zip) of the solution which is going to be used in the reference implementations.
