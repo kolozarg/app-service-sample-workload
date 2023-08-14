@@ -1,7 +1,6 @@
 # App Services sample workload
 
 This GitHub repository contains a simple web application sample that connects to an Azure SQL Database. The sample application supports reference implementations of articles published in the Azure Architecture Center (AAC).
-It supports App Service references implementations.
 
 - App Service Simple Web App (coming soon)
 - [App Service Baseline implementation](https://github.com/Azure-Samples/app-service-baseline-implementation)
