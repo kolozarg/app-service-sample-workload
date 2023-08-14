@@ -22,7 +22,7 @@ The sample project provides the following features:
 - [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
 - [Adventureworks database example](https://learn.microsoft.com/sql/samples/adventureworks-install-configure)
 
-### Installation
+### To edit in Visual Studio
 
 1. Install [Adventureworks database example](https://learn.microsoft.com/sql/samples/adventureworks-install-configure)
 1. Get connnetion string and add it on appsettings.json
