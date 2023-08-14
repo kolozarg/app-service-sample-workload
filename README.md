@@ -7,7 +7,7 @@ This GitHub repository contains a simple web application sample that connects to
 
 ## Features
 
-This project framework provides the following features:
+The sample project provides the following features:
 
 - Home Page
   ![Home Page](homePage.png)
