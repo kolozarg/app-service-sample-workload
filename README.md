@@ -11,7 +11,7 @@ The sample project provides the following features:
 
 - A simple Welcome page
   ![Home Page](homePage.png)
-- A page which show database Product Categories to show connectivity
+- A product categories page to illustrate database connectivity
   ![Product Categories Pages](ProductCategoriesPages.png)
 
 ## Getting Started
