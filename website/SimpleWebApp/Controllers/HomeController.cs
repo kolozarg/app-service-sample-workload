@@ -1,10 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using SimpleWebApp.Models;
 using System.Data;
-using System.Data.SqlClient;
 using System.Diagnostics;
-using Microsoft.Extensions.Configuration;
-
 
 namespace SimpleWebApp.Controllers
 {
@@ -12,14 +10,12 @@ namespace SimpleWebApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IConfiguration _configuration;
-        private readonly IWebHostEnvironment _hostEnvironment;
 
 
-        public HomeController(IWebHostEnvironment hostingEnv, ILogger<HomeController> logger, IConfiguration configuration)
+        public HomeController(ILogger<HomeController> logger, IConfiguration configuration)
         {
             _logger = logger;
             _configuration = configuration;
-            _hostEnvironment = hostingEnv;
         }
 
         public IActionResult Index()
@@ -39,9 +35,7 @@ namespace SimpleWebApp.Controllers
 
         private List<string> GetData()
         {
-            //var connString = _configuration.GetConnectionString("adventureWorksConnectionString");
-
-            var connString = _configuration["adWorksConnString"];
+            var connString = _configuration["AZURE_SQL_CONNECTIONSTRING"];
             var categories = new List<string>();
 
             using (var sqlConn = new SqlConnection(connString))
@@ -67,6 +61,7 @@ namespace SimpleWebApp.Controllers
 
             return categories;
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
